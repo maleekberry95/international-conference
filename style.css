@@ -1,0 +1,286 @@
+
+
+
+body{
+    margin-top: 20px;
+}
+.header {
+    display: flex;
+}
+.inter{
+    margin-top: 8px;
+    font-size: large;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.globe-image {
+    height: 80px;  
+}
+.buttons {
+    margin-top: 22px;
+    padding-left: 330px;
+}
+.home {
+    background-color:rgb(34, 28, 68);
+    color: white;
+    width: 60px;
+    height: 23px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.event {
+    background-color:rgb(34, 28, 68);
+    color: white;
+    width: 95px;
+    height: 23px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: none;
+    border-radius: 5px; 
+    margin-right: 10px;
+    cursor: pointer;
+}
+.subscribe{
+    background-color:rgb(34, 28, 68);
+    color: white;
+    width: 95px;
+    height: 23px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: none;
+    border-radius: 5px; 
+    margin-right: 10px;
+    cursor: pointer;
+}
+.blog {
+    background-color:rgb(34, 28, 68);
+    color: white;
+    width: 60px;
+    height: 23px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px; 
+    cursor: pointer;
+}
+.faq {
+    background-color:rgb(34, 28, 68);
+    color: white;
+    width: 60px;
+    height: 23px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: none;
+    border-radius: 5px; 
+    margin-right: 10px;
+    cursor: pointer;
+}
+.contact {
+    background-color:rgb(34, 28, 68);
+    color: white;
+    width: 95px;
+    height: 23px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: none;
+    border-radius: 5px; 
+    margin-right: 10px;
+    cursor: pointer;
+}
+.index {
+    background-color: rgb(240, 13, 32);
+    color: white;
+    width: 195px;
+    height: 23px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: none;
+    border-radius: 5px; 
+    margin-right: 10px;
+    cursor: pointer;
+}
+.index:hover{
+    background-color: blue;
+}
+.contact:hover{
+    background-color: rgb(0, 255, 242)
+}
+.faq:hover{
+    background-color: rgb(0, 255, 242)
+}
+.blog:hover{
+    background-color: rgb(0, 255, 242)
+}
+.subscribe:hover{
+    background-color: rgb(0, 255, 242)
+}
+.event:hover{
+    background-color: rgb(0, 255, 242)
+}
+.home:hover{
+    background-color: rgb(0, 255, 242)
+}
+.tourism {
+    background-color: rgb(34, 28, 68);
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 35px;
+    padding-top: 6px;
+    font-weight: bolder;
+    margin-top: 0;   
+}   
+.international{
+    background-color: rgb(240, 15, 15);
+    text-align: center;
+    color: white;
+    margin-left: 350px;
+    height: 25px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.topics{
+    margin-left: 25px;
+    margin-top: 50px;
+    background-color: rgba(57, 177, 177, 0.89);
+    width: 260px;
+    height: 26px;
+    padding-top: 5px;
+    color: white;
+    font-size: 15x;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    
+}
+.list{
+    display: flex;
+    margin-left: 0;
+    cursor: pointer;
+}
+.banking{
+    margin-left: 25px;
+    margin-top: 8px;
+    background-color: rgba(6, 52, 112, 0.979);
+    width: 120px;
+    height: 21px;
+    padding-top: 5px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 25px;
+    color: white;
+    font-size: small;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.human{
+    margin-left: 25px;
+    margin-top: 8px;
+    background-color: rgba(6, 52, 112, 0.979);
+    width: 130px;
+    height: 21px;
+    padding-top: 5px;
+    font-size: small;
+    border: none;
+    margin-left: 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text{
+    color: black;
+    margin-left: 320px;
+    width: 900px;
+    text-align: justify;
+    
+}
+.up-coming {
+    text-align: center;
+    background-color: rgb(11, 132, 180);
+    color: white;
+    height: 26px;
+    padding-top: 5px;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 350px;
+    margin-right: 150px;
+}
+.place-holder{ 
+    width: 75%;
+    margin-left: 250px;
+    height: 40vh;
+}
+
+@media screen and (max-width: 768px)
+ {
+   header {
+    height: 100vh;
+   }
+   .buttons {
+    display: none;
+    flex-direction: column;
+   }
+
+   .tourism {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+   }
+
+   .international{
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    font-size: 15px;
+    padding-top: 7px;
+   }
+   .up-coming{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    width: 285px;
+    font-size: 13px;
+    margin-top: 12px;
+   }
+
+   .place-holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 35px;
+   
+    
+   }
+
+   .topics{
+    margin-top: 12px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25px;
+    text-align: center;
+    
+}
+
+.list{
+    justify-content: center;
+    align-items: center;
+   }
+
+}
